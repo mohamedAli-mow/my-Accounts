@@ -22,20 +22,22 @@ body {
   border-radius: 20px;
   border: 1px solid rgba(83, 83, 83, 0.411);
   box-shadow: 0 8px 32px rgba(31, 30, 30, 0.1);
-  width: 400px;
+  width: 365px;
   padding: 25px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 170px;
+  padding-top: 160px;
+  align-items: center;
 }
 .header div {
   display: flex;
   align-items: center;
-  gap: 70px;
+  gap: 50px;
   border-radius: 20px;
   border: grey 1px solid;
-  padding: 5px;
+  padding: 5px 2px;
+  width: 330PX;
 }
 .header div span {
   font-size: 2rem;
@@ -53,17 +55,12 @@ body {
   color: #fff;
 }
 .pic {
-  width: 130px;
+  width: 120px;
   border-radius: 50%;
   margin-bottom: 20px;
   position: absolute;
-  top: 85px;
+  top: 15px;
   left: 50%;
   transform: translateX(-55%);
   z-index: 1;
-}
-@media screen and (max-width: 460px) {
-  .header{
-    width: 98%;
-  }
 }
