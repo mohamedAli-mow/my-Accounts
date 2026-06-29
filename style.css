@@ -33,11 +33,13 @@ body {
 .header div {
   display: flex;
   align-items: center;
-  gap: 50px;
+  gap: 60px;
   border-radius: 20px;
   border: grey 1px solid;
-  padding: 5px 2px;
-  width: 290PX;
+  padding: 5px 0;
+  padding-left: 3px;
+  width: 280PX;
+  height: 65px;
 }
 .header div span {
   font-size: 1.5rem;
@@ -63,4 +65,8 @@ body {
   left: 50%;
   transform: translateX(-55%);
   z-index: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+.header a img{
+  width: 60px;
 }
