@@ -39,7 +39,7 @@ body {
   padding: 5px 0;
   padding-left: 3px;
   width: 280PX;
-  height: 65px;
+  height: 75px;
 }
 .header div span {
   font-size: 1.5rem;
@@ -68,5 +68,5 @@ body {
   transition: opacity 0.5s ease-in-out;
 }
 .header a img{
-  width: 60px;
+  width: 65px;
 }

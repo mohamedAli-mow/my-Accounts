@@ -1,5 +1,5 @@
 
-const images = ["IMG_20260627_104312_744.jpg", "WhatsApp Image 2026-03-27 at 3.02.29 PM.jpeg" ,'snapchat1.jpg' , "snapchat2.jpg" , "snapchat3.jpg"];
+const images = ["IMG_20260627_104312_744.jpg", "WhatsApp Image 2026-03-27 at 3.02.29 PM.jpeg" ,'Snapchat1.jpg' , "Snapchat2.jpg" , "Snapchat3.jpg"];
 let currentIndex = 0;
 
 setInterval(() => {
